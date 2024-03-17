@@ -177,7 +177,7 @@
   }
 }*/
 
-class Hello {
+/*class Hello {
   public static void main(String args[]) {
     int x = 24;
     int y = 10;
@@ -186,4 +186,18 @@ class Hello {
     boolean result = x < y || a > b;
     System.out.println(!result);
   }
-}
+}*/
+
+/*class Hello {
+  public static void main(String args[]) {
+    int x = 4;
+    int y = 5;
+    int a = 6;
+    int b = 1;
+    boolean result = x < y || a > b;
+    System.out.println(!result);
+  }
+}*/
+
+
+
