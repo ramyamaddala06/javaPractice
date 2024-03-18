@@ -199,7 +199,7 @@
   }
 }*/
 
-class Hello {
+/*class Hello {
   public static void main(String args[]){
     int a=4;
     int b=2;
@@ -208,7 +208,190 @@ class Hello {
 boolean result=a>b&&c<d;
 System.out.println(!result);
   }
+}*/
+
+/*class Hello{
+  public static void main(String args[]){
+    int  x=30;
+    if(x>25){
+      System.out.println("Hieeeeee");
+    }
+    }
+}*/
+
+/*class Hello{
+  public static void main(String args[]){
+    int x=6;
+    if(x>7)
+      System.out.println("Hieeee");
+      else
+      System.out.println("Hello");
+    }
+}*/
+
+/*class Hello{
+  public static void main(String args[]){
+    int x=25;
+    int y=24;
+    int z=26;
+  if(x<y && y<z)
+  System.out.println("Hiee");
+  else
+  System.out.println("Who are you");
+  }
+}*/
+
+/*class Hello{
+  public static void main(String args[]){
+    int x=10;
+    int y=6;
+    int z=2;
+
+    if(x>y && y>z)
+    System.out.println("Helloooo");
+    else if(x<y && y<z)
+    System.out.println("Bye");
+    else
+    System.out.println(z);
+  }
+}*/
+
+/*class Hello{
+  public static void main(String args[]){
+    int x=18;
+    int y=14;
+    int z=10;
+    if(x<y && y<z)
+    System.out.println("Hieee");
+    else if(x>y && y>z)
+    System.out.println("Helloooo");
+    else
+    System.out.println(z);
+  }
+}*/
+
+/*class Hello{
+  public static void main(String args[]){
+    int x=18;
+    int y=14;
+    int z=10;
+    if(x<y && y<z)
+    System.out.println("Hieee");
+    else if(x<y && y<z)
+    System.out.println("Helloooo");
+    else
+    System.out.println(z);
+  }
+}*/
+
+/*class Hello{
+  public static void main(String args[]){
+    int x=18;
+    int y=14;
+    int z=10;
+    if(x>y && y>z)
+    System.out.println("Hieee");
+    else if(x>y && y>z)
+    System.out.println("Helloooo");
+    else
+    System.out.println(z);
+  }
+}*/
+
+/*class Hello{
+  public static void main(String args[]){
+  int n=2;
+  int result=0;
+  if(n%2==0)
+  result=10;
+  else
+  result=20;
+  System.out.println(result);
+  }
+}*/
+
+/*class Hello{
+  public static void main(String args[]){
+    int n=5;
+    int result=0;
+    if(n%2==0)
+    result=4;
+    else
+    result=6;
+    System.out.println(result);
+
+  }
+}*/
+
+/*class Hello{
+  public static void main(String args[]){
+    int n=1;
+    switch(n){
+      case 1:
+      System.out.println("Monday");
+      break;
+      case 2:
+      System.out.println("Tuesday");
+      break;
+      case 3:
+      System.out.println("Wednesday");
+      break;
+      case 4:
+      System.out.println("Thursday");
+      break;
+      case 5:
+      System.out.println("Friday");
+      break;
+      case 6:
+      System.out.println("Saturday");
+      break;
+      case 7:
+      System.out.println("Sunday");
+      break;
+      default:
+      System.out.println("Hi");
+
+    }
+  }
+}*/
+
+class Hello{
+  public static void main(String args[]){
+    int n=8;
+    switch(n){
+      case 1:
+      System.out.println("Monday");
+      break;
+      case 2:
+      System.out.println("Tuesday");
+      break;
+      case 3:
+      System.out.println("Wednesday");
+      break;
+      case 4:
+      System.out.println("Thursday");
+      break;
+      case 5:
+      System.out.println("Friday");
+      break;
+      case 6:
+      System.out.println("Saturday");
+      break;
+      case 7:
+      System.out.println("Sunday");
+      break;
+      default:
+      System.out.println("Hi");
+
+    }
+  }
 }
+
+
+
+
+
+
 
 
 
