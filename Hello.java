@@ -355,7 +355,7 @@ System.out.println(!result);
   }
 }*/
 
-class Hello{
+/*class Hello{
   public static void main(String args[]){
     int n=8;
     switch(n){
@@ -385,8 +385,37 @@ class Hello{
 
     }
   }
-}
+}*/
 
+/*class Hello{
+  public static void main(String args[]){
+    int i=1;
+    while(i<=7){
+      System.out.println("Hiee");
+      i++;
+    }
+  }
+}*/
+/*class Hello{
+  public static void main(String args[]){
+    int i=8;
+    while(i<=7){
+      System.out.println("Hieee");
+      i++;
+    }
+  }
+}*/
+ 
+/*class Hello{
+  public static void main(String args[]){
+    int i=6;
+    while(i<=5){
+      System.out.println("Hiee");
+      i++;
+    }
+    System.out.println("Bye");
+  }
+}*/
 
 
 
