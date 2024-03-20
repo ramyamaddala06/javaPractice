@@ -417,6 +417,82 @@ System.out.println(!result);
   }
 }*/
 
+/*class Hello{
+  public static void main(String args[]){
+    int i=8;
+    while(i<=9){
+      System.out.println("Hiee "+ i);
+      i++;
+    }
+    System.out.println("Bye");
+    }
+  }*/
+
+  /*class Hello{
+    public static void main(String args[]){
+      int i=10;
+      while(i<=6){
+        System.out.println("Hiee "+ i);
+         i++;
+      }
+      System.out.println("Bye");
+      }
+}*/
+
+/*class Hello{
+  public static void main(String args[]){
+    int i=6;
+    while(i<=8){
+    System.out.println("Hello");
+    int j=4;
+    while (j<=5) {
+      System.out.println("Hiee");
+      j++;
+    }
+    i++;
+  }
+  System.out.println("Bye");
+      
+    }
+  }*/
+
+  /*class Hello{
+    public static void main(String args[]){
+      int i=5;
+      do
+      {
+        System.out.println("Hieeee "+i);
+        i++;
+      }
+      while(i<=3);
+
+    }
+  }*/
+
+  /*class Hello{
+    public static void main(String args[]){
+      for(int i=1;i<=6;i++){
+        System.out.println("Hiee "+i);
+
+      }
+    }
+  }*/
+
+  /*class Hello{
+    public static void main(String args[]){
+      for(int i=7;i>=1;i--){
+        System.out.println("Hieee " +i);
+      }
+    }
+  }*/
+
+
+
+
+
+  
+
+
 
 
 
