@@ -486,19 +486,95 @@ System.out.println(!result);
     }
   }*/
 
-
-
-
-
+  /*class Calculator {
+    public int add(int n1, int n2, int n3) {
+      return n1 + n2 + n3;
+    }
   
+    public int add1(int n1, int n2) {
+      return n1 + n2;
+    }
+  
+    public double add(double n1, int n2) {
+      return n1 + n2;
+    }
+  }
+  
+  class Hello {
+    public static void main(String[] args) {
+      {
+        Calculator obj = new Calculator();
+        int r1 = obj.add1(3, 4);
+        System.out.println(r1);
+      }
+    }
+  }*/
 
+  /*class Calculator {
+    public int add(int n1, int n2, int n3) {
+      return n1 + n2 + n3;
+    }
+  
+    public int add1(int n1, int n2) {
+      return n1 + n2;
+    }
+  
+    public double add(double n1, int n2) {
+      return n1 + n2;
+    }
+  }
+  
+  class Hello {
+    public static void main(String[] args) {
+      {
+        Calculator obj = new Calculator();
+        int r1 = obj.add1(6, 4);
+        System.out.println(r1);
+      }
+    }
+  }*/
 
+ /* class Calculator
+{
+public int add(int n1,int n2){
+int r =n1+ n2;
+return r;
+}
+}
+class Hello
+{
+  public static void main(String a[])
+{
+  int num1=4;
+  int num2=5;
+  Calculator calc = new Calculator();
+  int result = calc.add(num1, num2);
+  //int result = num1 + num2;
+  System.out.println(result);
+}
+}*/
 
-
-
-
-
-
-
-
-
+/*class Computer
+{
+  public void playMusic()
+  {
+    System.out.println("Music Playing..");
+  }
+  public String getMeApen(int cost)
+  {
+    if(cost >= 10)
+    return "Pen";
+    else
+    return "Nothing";
+  }
+  }
+class Hello
+ {
+  public static void main(String a[])
+ {
+Computer obj= new Computer();
+obj.playMusic();
+String str = obj.getMeApen(2);
+System.out.println(str);
+ }
+}*/
