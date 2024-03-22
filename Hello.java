@@ -484,97 +484,245 @@ System.out.println(!result);
         System.out.println("Hieee " +i);
       }
     }
-  }*/
+ }*/
 
-  /*class Calculator {
-    public int add(int n1, int n2, int n3) {
-      return n1 + n2 + n3;
-    }
-  
-    public int add1(int n1, int n2) {
-      return n1 + n2;
-    }
-  
-    public double add(double n1, int n2) {
-      return n1 + n2;
-    }
+ /*class Calculator
+ {
+  int a;
+  public int add(int n1,int n2)
+  {
+    int r = n1+ n2;
+    return r;
   }
-  
-  class Hello {
-    public static void main(String[] args) {
-      {
-        Calculator obj = new Calculator();
-        int r1 = obj.add1(3, 4);
-        System.out.println(r1);
-      }
-    }
-  }*/
-
-  /*class Calculator {
-    public int add(int n1, int n2, int n3) {
-      return n1 + n2 + n3;
-    }
-  
-    public int add1(int n1, int n2) {
-      return n1 + n2;
-    }
-  
-    public double add(double n1, int n2) {
-      return n1 + n2;
-    }
+ }
+ public class Hello{
+  public static void main(String a[]){
+    int num1=4;
+    int num2=5;
+    Calculator calc = new Calculator();
+    int result = calc.add(num1,num2);
+    System.out.println(result);
   }
-  
-  class Hello {
-    public static void main(String[] args) {
-      {
-        Calculator obj = new Calculator();
-        int r1 = obj.add1(6, 4);
-        System.out.println(r1);
-      }
-    }
-  }*/
 
- /* class Calculator
-{
-public int add(int n1,int n2){
-int r =n1+ n2;
-return r;
-}
-}
-class Hello
-{
+
+ }*/
+
+ 
+ /*  class Calculator
+ {
+ int num=5;
+  public int add(int n1,int n2)
+  {
+  System.out.println(num);
+  return n1+n2;
+  }
+  }
+  public class Hello
+  {
+ public static void main(String a[])
+ {
+ int data = 10;
+ Calculator obj = new Calculator();
+ Calculator obj1 = new Calculator();
+ int r1 = obj.add(3, 4);
+  System.out.println(r1);
+  }
+  }*/
+ 
+  /*public class Hello
+  {
   public static void main(String a[])
-{
-  int num1=4;
-  int num2=5;
-  Calculator calc = new Calculator();
-  int result = calc.add(num1, num2);
-  //int result = num1 + num2;
-  System.out.println(result);
-}
+  {
+  int nums[] =new int[4];
+ nums[0] = 4;
+ nums[1] = 6;
+ nums[2] = 3;
+ nums[3] = 9;
+ for(int i=0;i<4;i++)
+ {
+ System.out.println(nums[i]);
+  }
+  
+  }
+  }*/
+ 
+
+
+  /*public class Hello
+  {
+  public static void main(String a[])
+  {
+  int nums[][]=new int[3][4];
+  for (int i=0;i<3;i++)
+  {
+  for(int j=0;j<4;j++)
+  {
+  nums[i][j]=(int)Math.random() * 100;
+  }
+  }
+  for (int i=0;i<3;i++)
+ {
+ for(int j=0;j<4;j++)
+ {
+  System.out.println(nums[i][j] + " ");
+  }
+  System.out.println();
+  }
+ for (int n[] : nums)
+  {
+  for(int m: n)
+  {
+  System.out.print(m + " ");
+  }
+  System.out.println();
+  }
+  }
+ }*/
+ 
+
+  /*class Student
+  {
+  int rollno;
+  String name;
+  int marks;
+  }
+  public class Hello
+  {
+  public static void main(String[] args) {
+  {
+  Student s1 = new Student();
+  s1.rollno = 1;
+  s1.name = "Navin";
+  s1.marks = 88;
+  
+  Student s2 = new Student();
+  s2.rollno = 2;
+  s2.name = "Harsh";
+  s2.marks = 67;
+  
+  Student s3 = new Student();
+  s3.rollno = 1;
+  s3.name = "Kiran";
+  s3.marks = 97;
+  System.out.println(s1.name + " : " + s1.marks);
+  Student students[] = new Student[3];
+  students[0] = s1;
+  students[1] = s2;
+  students[2] = s3;
+  }
+  }
 }*/
 
-/*class Computer
-{
-  public void playMusic()
+
+
+  /*public class Hello
   {
-    System.out.println("Music Playing..");
-  }
-  public String getMeApen(int cost)
+ public static void main(String a[])
   {
-    if(cost >= 10)
-    return "Pen";
-    else
-    return "Nothing";
+ String name = new String("navin");
+ name = name + " reddy";
+  System.out.println("hello " + name);
+  String s1="Navin";
+  String s2="Navin";
   }
+ }*/
+ 
+
+
+/*class Hello {
+  public static void main(String[] args)
+  {
+  StringBuffer sb= new StringBuffer("Ramya");
+  System.out.println(sb.length());
+  System.out.println(sb.capacity());
+  sb.append("Maddala");
+  System.out.println(sb);
+  String str=sb.toString();
+  sb.deleteCharAt(2);
+  sb.insert(0,"Java");
+  sb.insert(6,"java");
+  sb.setLength(30);
+  sb.ensureCapacity(100);
+  
+  System.out.println(sb);
   }
-class Hello
- {
-  public static void main(String a[])
- {
-Computer obj= new Computer();
-obj.playMusic();
-String str = obj.getMeApen(2);
-System.out.println(str);
- }
+  }*/
+ 
+
+  /*class Mobile{
+  String brand;
+  int price;
+ String network;
+ 
+ static String name;
+  
+  public void show() {
+  System.out.println(brand+" : "+price+" : "+name);
+  }
+  
+  }
+ 
+  public class Hello {
+     public static void main(String[] args)
+  {
+  Mobile obj1=new Mobile();
+  obj1.brand="Apple";
+  obj1.price=1500;
+
+ Mobile.name="SmartPhone";
+ 
+ Mobile obj2=new Mobile();
+ obj2.brand="Samsung";
+  obj2.price=1700;
+
+  Mobile.name="SmartPhone";
+  
+ Mobile.name="SmartPhone";
+  
+  obj1.show();
+ obj2.show();
+  
+  System.out.println(obj1.brand);
+  
+  
+  }
+  }*/
+ 
+/*class Mobile {
+  String brand;
+  int price;
+  String network;
+  static String name;
+
+  static {
+    name = "Phone";
+    System.out.println("in static block");
+  }
+
+  public Mobile() {
+    brand = "";
+    price = 200;
+    // name="Phone";
+    System.out.println("in constructor");
+  }
+
+  public void show() {
+    System.out.println(brand + " : " + price + " : " + name);
+  }
+
+}
+
+public class Hello {
+  public static void main(String[] args) throws ClassNotFoundException {
+
+    Class.forName("Mobile");
+
+    // Mobile obj1=new Mobile();
+    // obj1.brand="Apple";
+    // obj1.price=1500;
+    // Mobile.name="SmartPhone";
+    //
+    // Mobile obj2=new Mobile();
+
+  }
 }*/
