@@ -810,7 +810,7 @@ public class Hello {
 }*/
 
 
-class Student
+/*class Student
 {
 	int rollno;
 	String name;
@@ -860,4 +860,131 @@ public class Hello {
 //			System.out.println(nums[i]);
 //		}
 	}
+}*/
+
+/*class Name {
+  String name;	
+  }
+  public class Hello {
+    public static void main(String args[]) {
+      Name n1=new Name();
+      n1.name="Hi Jyotshna";
+      
+      Name n2= new Name();
+      n2.name="Hi Ramya";
+      
+      Name n3=new Name();
+      n3.name="Hi Sowmya";
+      
+      System.out.println(n1.name);
+      Name names[]=new Name[3];
+      names[0]=n1;
+      names[1]=n2;
+      names[2]=n3;
+      
+      for(int i=0;i<names.length;i++)
+      {
+        System.out.println(names[i].name);
+      }
+    }
+    
+  }*/
+
+  /*public class Hello  {
+    public static void main(String args[]) {
+      String[] names= {"Jyotshna","Ramya","Sowmya"}; //for each
+      
+      for(String name: names)
+      {
+        System.out.println(" Hi " + name);
+      }
+    }
+  } */
+  
+  /*import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+  /*public class Hello {
+    public static void main(String a[]){
+      Collection<Integer> nums = new ArrayList<Integer>();
+      nums.add(6);
+      nums.add(5);
+      nums.add(8);
+      nums.add(2);
+
+      for(Object n: nums){
+      
+    int num=(Integer)n;
+      System.out.println(num*2);
+    }
+  }
+} */
+
+/*import java.util.ArrayList;
+import java.util.List;
+  public class Hello {
+    public static void main(String a[]){
+      List<Integer> nums = new ArrayList<Integer>();
+      nums.add(6);
+      nums.add(5);
+      nums.add(8);
+      nums.add(2);
+System.out.println(nums.get(2));
+
+     
+    }
+  }*/
+/*import java.util.Map;
+import java.util.HashMap;
+
+public class Hello {
+	public static void main(String a[]) {
+		Map<String, Integer>students=new HashMap<>();
+		students.put("Ramya", 6);
+		students.put("Anu", 7);
+		students.put("Sowmya", 5);
+		students.put("Shivani", 21);
+		System.out.println(students.keySet());
+	for(String name: students.keySet()) {
+		System.out.println(name + " : "+ students.get(name));
+	}
 }
+	
+}*/
+
+/*import java.util.Map;
+import java.util.HashMap;
+
+public class Hello {
+	public static void main(String a[]) {
+		Map<String, Integer>students=new HashMap<>();
+		students.put("Ramya", 6);
+		students.put("Anu", 7);
+		students.put("Sowmya", 5);
+		students.put("Shivani", 21);
+		System.out.println(students.keySet());
+	
+	for(String name: students.keySet()) {
+		System.out.println(name + ":"+ students.get(name));
+	}
+	}
+}*/
+
+/*import java.util.Map;
+import java.util.HashMap;
+
+public class Hello {
+	public static void main(String a[]) {
+		Map<String, Integer>students=new HashMap<>();
+		students.put("Ramya", 6);
+		students.put("Anu", 7);
+		students.put("Sowmya", 5);
+		students.put("Shivani", 21);
+		System.out.println(students.keySet());
+	
+	for(String key: students.keySet()) {
+		System.out.println(key + ":"+ students.get(key));
+	}
+	}
+}*/
+
